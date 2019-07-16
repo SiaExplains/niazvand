@@ -1,0 +1,32 @@
+<div fxLayout="row" fxLayoutAlign="center center">
+
+  <div fxLayout="column" fxFlex="30">
+    <div fxLayout="row">
+      <div fxLayout="column" fxFlex="40"> 
+        <button class="contanct-btn-style" mat-stroked-button color="primary">دریافت اطلاعات تماس</button>
+      </div>
+      <div fxLayout="column" fxFlex="30">
+        <button class="contanct-btn-style" mat-stroked-button routerLink="/home">بازگشت</button>
+      </div>
+    </div>
+    
+    <mat-list>
+      <mat-list-item><div fxFlex="50">دسته بندی :</div><div fxFlex="50" class="detail-item">{{ itemKind }}</div> </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item><div fxFlex="50">محل :</div><div fxFlex="50" class="detail-item">{{ location }}</div> </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item><div fxFlex="50">نوع آگهی :</div><div fxFlex="50" class="detail-item">{{ adsKind }}</div> </mat-list-item>
+      <mat-divider></mat-divider>
+      <mat-list-item><div fxFlex="50">قیمت:</div><div fxFlex="50" class="detail-item">{{ price }}</div> </mat-list-item>
+    </mat-list>
+  </div>
+  <div fxLayout="column" fxFlex="5"></div>
+  <div fxLayout="column" fxFlex="30">
+    <img class="image-style" mat-card-image [src]="imageDirectory">
+  </div>
+      
+</div>
+
+
+
+
