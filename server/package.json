@@ -1,0 +1,16 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "online second-hand market",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "market",
+    "second-hand",
+    "niazvand"
+  ],
+  "author": "Siavash Ghanbari",
+  "license": "ISC"
+}
